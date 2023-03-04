@@ -15,3 +15,9 @@ install:
 #   bucket_name: "elasticbeanstalk-us-east-1-076563148632"
 #   on:
 #     branch: master
+
+script:
+  - black --check .
+  
+after_script:
+   - coveralls
