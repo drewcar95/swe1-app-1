@@ -25,19 +25,19 @@ SECRET_KEY = "django-insecure-lk19og5&ijgqzvj$vbl9frd8#e-p721$qo_e8(w4tsjd12=#0o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-env.eba-mwshk2wd.us-east-1.elasticbeanstalk.com', 'localhost']
+ALLOWED_HOSTS = ["django-env.eba-mwshk2wd.us-east-1.elasticbeanstalk.com", "localhost"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'polls.apps.PollsConfig',
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    "polls.apps.PollsConfig",
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
 ]
 
 MIDDLEWARE = [
