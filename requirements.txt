@@ -1,4 +1,4 @@
 asgiref
 Django
 sqlparse
-black
+black==22.6.0
